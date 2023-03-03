@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-sp-list-item-client-side-solution",
+    "id": "dba53478-cbc2-40b4-9c5c-b029740ba45a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GetSpListItem description"
+      },
+      "longDescription": {
+        "default": "GetSpListItem description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "get-sp-list-item Feature",
+        "description": "The feature that activates elements of the get-sp-list-item solution.",
+        "id": "9faed407-aa0a-4330-aa6b-1ccb07562f11",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/get-sp-list-item.sppkg"
+  }
+}
